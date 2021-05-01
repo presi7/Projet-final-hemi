@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projetfinal</string>
+    <string name="Contact_item">Contact_item</string>
+    <string name="Apropos_item">\@string/Apropos_item</string>
+    <string name="Apropos">apropos</string>
+    <string name="Contact">Contact</string>
+    <string name="Appel">string_Appel</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

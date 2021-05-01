@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vue.InfospersonnelActivity"
+    android:background="@drawable/bakcgrd"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:background="@drawable/test"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:padding="30dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nom"
+        android:hint="Nom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_prenom"
+        android:hint="Prenom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_adresse"
+        android:hint="Adresse"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_mail"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_tel"
+        android:hint="Telephone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/valide"
+        android:paddingLeft="20dp"
+        android:text="VALIDER"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/valide"
+        android:paddingLeft="20dp"
+        android:text="MAPS"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
